@@ -265,6 +265,65 @@ footer a {
 
 /* desktop mode */
 @media screen and (min-width: 900px) {
+  body {
+    margin: 0 6em;
+    font-size: 120%;
+  }
+
+  header {
+    padding: 0.8em;
+  }
+  header * {
+    display: inline-block;
+  }
+
+  header div img {
+    margin-bottom: 0;
+  }
+
+  header div p {
+    margin-bottom: 0em;
+    margin-right: 10em;
+  }
+
+  header div {
+    vertical-align: middle;
+  }
+  table {
+    display: block;
+    margin: 6em auto;
+    width: 75%;
+    padding: 0;
+    font-size: 90%;
+  }
+
+  th,
+  td {
+    padding: 0.8em 5em;
+    vertical-align: middle;
+  }
+
+  iframe,
+  main article section {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    max-width: 49%;
+    height: 200px;
+  }
+  main article section fieldset input {
+    padding: 1em 8em;
+  }
+
+  aside h2 {
+    margin: 2em;
+    font-size: 150%;
+  }
+  aside div {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 2em;
+  }
 }
 
 /* printer mode */
